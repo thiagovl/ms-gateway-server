@@ -12,7 +12,7 @@ public class MsGatewayConfiguration {
 	@Value("${URI_INDEX_USERS}")
 	private String apiIndex;	
 	
-	@Value("${URI_MICROSERVICE}")
+	@Value("${URI_MICROSERVICE_USERS}")
 	private String uriMicroservice;	
 	
 	@Value("${URI_AUTHENTICATE}")
