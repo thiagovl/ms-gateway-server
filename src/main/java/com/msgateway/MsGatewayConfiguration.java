@@ -32,7 +32,7 @@ public class MsGatewayConfiguration {
 		
 		return builder.routes()
 				// Route to /api/index in the ms-auth microservice 
-				.route(p -> p.path(apiIndex)			
+				.route(p -> p.path(apiIndex)	
 						.uri(uriMicroservice))	
 				// Route to /authentication in the ms-auth microservice 
 				.route(p -> p.path(uriAuthenticate)

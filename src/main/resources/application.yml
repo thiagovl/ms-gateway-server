@@ -11,4 +11,4 @@ spring:
             - POST
             - PUT
             - DELETE
-            -OPTIONS
+            - OPTIONS
